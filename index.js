@@ -15,6 +15,8 @@ app.engine(
 
 app.use(express.static('static'));
 
+// This Atlas database was setup to work from any location.
+
 const uri =
   'mongodb+srv://clav-8325:Yzll1t791kZBmilO@jc-cluster39.tfcn9.mongodb.net/pi5-final?retryWrites=true&w=majority';
 
